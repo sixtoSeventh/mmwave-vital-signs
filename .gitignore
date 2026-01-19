@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+.eggs/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+.conda/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files (too large for git)
+*.bin
+*.mat
+data/*.mat
+data/*.bin
+
+# Output files
+output/*.png
+output/*.gif
+output/*.avi
+*.avi
+*.gif
+heatmap_output.png
+radar_heatmap_animation.avi
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Downloaded archives
+*.zip
+
+# Clone repositories (use submodules instead)
+Github_Clone/
+pymmw-master/
+mmwave-visualizer-python-main/
+lab0008_automated_parking/
+
+# Large image files in root
+image*.png
+
+# Config files with local paths
+config/18xx.mmwave.json
+
+# MATLAB generated
+*.asv
+matlabcode/*.mat
